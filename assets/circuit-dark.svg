@@ -1,0 +1,95 @@
+<svg width="360" height="360" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Circuit board illustration">
+  <defs>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#70A5FD"/>
+      <stop offset="50%" stop-color="#9F8CF0"/>
+      <stop offset="100%" stop-color="#38BDAE"/>
+    </linearGradient>
+    <filter id="nodeGlow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feComponentTransfer in="b" result="g"><feFuncA type="linear" slope="0.6"/></feComponentTransfer>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g>
+    <path d="M 48 72 L 72 72 L 96 72 L 120 72 L 144 72 L 144 96 L 144 120" fill="none" stroke="#2B3240" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 48 216 L 24 216" fill="none" stroke="#2B3240" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 48 312 L 48 288 L 48 264 L 72 264 L 96 264" fill="none" stroke="#2B3240" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 312 48 L 288 48 L 264 48 L 240 48 L 216 48 L 216 24" fill="none" stroke="#2B3240" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 312 312 L 312 288 L 312 264 L 288 264 L 264 264 L 240 264 L 216 264" fill="none" stroke="#2B3240" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 120 336 L 120 312 L 120 288 L 120 264 L 96 264 L 72 264 L 48 264" fill="none" stroke="#2B3240" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 336 144 L 312 144 L 288 144 L 264 144 L 240 144 L 216 144" fill="none" stroke="#2B3240" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 72 144 L 96 144 L 120 144 L 144 144 L 144 168 L 144 192 L 144 216 L 144 240 L 120 240 L 96 240" fill="none" stroke="#2B3240" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 264 336" fill="none" stroke="#2B3240" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 336 240 L 312 240 L 288 240 L 264 240 L 240 240 L 216 240 L 192 240 L 192 216 L 192 192" fill="none" stroke="#2B3240" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g>
+    <line x1="144.0" y1="110.0" x2="144.0" y2="126.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="162.0" y1="110.0" x2="162.0" y2="126.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="180.0" y1="110.0" x2="180.0" y2="126.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="198.0" y1="110.0" x2="198.0" y2="126.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="216.0" y1="110.0" x2="216.0" y2="126.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="144.0" y1="234.0" x2="144.0" y2="250.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="162.0" y1="234.0" x2="162.0" y2="250.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="180.0" y1="234.0" x2="180.0" y2="250.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="198.0" y1="234.0" x2="198.0" y2="250.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="216.0" y1="234.0" x2="216.0" y2="250.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="110.0" y1="144.0" x2="126.0" y2="144.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="110.0" y1="162.0" x2="126.0" y2="162.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="110.0" y1="180.0" x2="126.0" y2="180.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="110.0" y1="198.0" x2="126.0" y2="198.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="110.0" y1="216.0" x2="126.0" y2="216.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="234.0" y1="144.0" x2="250.0" y2="144.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="234.0" y1="162.0" x2="250.0" y2="162.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="234.0" y1="180.0" x2="250.0" y2="180.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="234.0" y1="198.0" x2="250.0" y2="198.0" stroke="#3A4252" stroke-width="3"/>
+    <line x1="234.0" y1="216.0" x2="250.0" y2="216.0" stroke="#3A4252" stroke-width="3"/>
+  </g>
+
+  <rect x="126.0" y="126.0" width="108" height="108" rx="10" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+  <rect x="136.0" y="136.0" width="88" height="88" rx="6" fill="none" stroke="url(#chipGrad)" stroke-width="2"/>
+  <text x="180.0" y="180.0" dy="0.34em" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="22" font-weight="700" fill="#C9D1D9">P</text>
+
+  <g>
+    <circle cx="336" cy="240" r="5" fill="#70A5FD" filter="url(#nodeGlow)"/>
+    <circle cx="336" cy="240" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="312" cy="48" r="5" fill="#9F8CF0" filter="url(#nodeGlow)"/>
+    <circle cx="312" cy="48" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="216" cy="264" r="5" fill="#38BDAE" filter="url(#nodeGlow)"/>
+    <circle cx="216" cy="264" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="264" cy="336" r="5" fill="#70A5FD" filter="url(#nodeGlow)"/>
+    <circle cx="264" cy="336" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="48" cy="264" r="5" fill="#9F8CF0" filter="url(#nodeGlow)"/>
+    <circle cx="48" cy="264" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="24" cy="216" r="5" fill="#38BDAE" filter="url(#nodeGlow)"/>
+    <circle cx="24" cy="216" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="144" cy="120" r="5" fill="#70A5FD" filter="url(#nodeGlow)"/>
+    <circle cx="144" cy="120" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="336" cy="144" r="5" fill="#9F8CF0" filter="url(#nodeGlow)"/>
+    <circle cx="336" cy="144" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="72" cy="144" r="5" fill="#38BDAE" filter="url(#nodeGlow)"/>
+    <circle cx="72" cy="144" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="96" cy="264" r="5" fill="#70A5FD" filter="url(#nodeGlow)"/>
+    <circle cx="96" cy="264" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="216" cy="24" r="5" fill="#9F8CF0" filter="url(#nodeGlow)"/>
+    <circle cx="216" cy="24" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="192" cy="192" r="5" fill="#38BDAE" filter="url(#nodeGlow)"/>
+    <circle cx="192" cy="192" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="48" cy="312" r="5" fill="#70A5FD" filter="url(#nodeGlow)"/>
+    <circle cx="48" cy="312" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="312" cy="312" r="5" fill="#9F8CF0" filter="url(#nodeGlow)"/>
+    <circle cx="312" cy="312" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="96" cy="240" r="5" fill="#38BDAE" filter="url(#nodeGlow)"/>
+    <circle cx="96" cy="240" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="120" cy="336" r="5" fill="#70A5FD" filter="url(#nodeGlow)"/>
+    <circle cx="120" cy="336" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="216" cy="144" r="5" fill="#9F8CF0" filter="url(#nodeGlow)"/>
+    <circle cx="216" cy="144" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="48" cy="72" r="5" fill="#38BDAE" filter="url(#nodeGlow)"/>
+    <circle cx="48" cy="72" r="2" fill="#0D1117" opacity="0.55"/>
+    <circle cx="48" cy="216" r="5" fill="#70A5FD" filter="url(#nodeGlow)"/>
+    <circle cx="48" cy="216" r="2" fill="#0D1117" opacity="0.55"/>
+  </g>
+</svg>
